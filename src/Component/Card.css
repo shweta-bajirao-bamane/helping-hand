@@ -1,0 +1,77 @@
+.card-div{
+    /* background-color: #fafafa; */
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    height: auto;
+}
+.empty-div{
+    clear: both;
+    
+}
+.card-img img{
+    width: 30%;
+    height:30%;
+    margin-left: 170px;
+    float: left;
+    border: 2px solid black;
+
+}
+.card-main h3{
+    width: 30%;
+    height:30%;
+    text-transform: uppercase;
+    display: inline;
+    /* margin-top: 2%; */
+    float: left;
+    justify-content: left;
+    text-align: left;
+    margin-left: 4%;
+}
+.card-main .para{
+    width: 30%;
+    height:30%;
+    /* display: inline; */
+    margin-top: 1%;
+    float: left;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 7%;
+    margin-left: 4%;
+    font-size: small;
+    font-weight: 350;
+    line-height: 1.5;
+}
+.card-main .new-date{
+    width: 30%;
+    height:30%;
+    /* display: inline; */
+    margin-top: 1%;
+    float: left;
+    justify-content: left;
+    text-align: left;
+    /* margin-bottom: 10%; */
+    margin-left: 4%;
+    font-size: small;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.card-main .new-btn{
+    width: 8%;
+    height:30%;
+    padding: 5px;
+    margin-top: -5%;
+    margin-right: 44.5%;
+    float: right;
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 4%;
+
+}
+.card-main .new-btn:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}

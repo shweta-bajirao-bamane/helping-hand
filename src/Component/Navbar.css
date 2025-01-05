@@ -1,0 +1,79 @@
+/* Main navbar container */
+.navbar-div {
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    background-color: #f8f8f8;
+    align-items: center;
+}
+
+/* Navbar title styling */
+.navbar-div h1 {
+    font-size: medium;
+    margin-left: 50px;
+    color: #c3195d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Highlighted letters in title */
+.navbar-div span {
+    font-size: x-large;
+    font-family: Garamond, Hoefler Text, Times New Roman, serif;
+    color: #680747;
+}
+
+/* Navigation list container */
+.navbar-div  {
+    margin-left: 5px;
+    list-style: none;
+    display: flex;
+}
+ .nav-ul {
+    margin-left: 15%;
+    list-style: none;
+    display: flex;
+}
+/* Individual navigation links */
+.navbar-div .nav-li a {
+    text-decoration: none; /* Removes underline */
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.navbar-div .nav-li a:hover {
+    color: orange; 
+    border-bottom:2px solid black;
+}
+
+/* Contact button styling */
+.con-btn {
+    border: 2px solid orange;
+    width: 9%;
+    margin-left: 20%;
+    list-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.con-btn a {
+    text-decoration: none; /* Removes underline */
+    color: orange;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.con-btn a:hover {
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+  
+}
